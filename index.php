@@ -135,7 +135,7 @@
 					<h3>裁剪图片Demo</h3>
 				</div>
 				<div class="col-md-12">
-					<form id="menu_form" action="" enctype="multipart/form-data" method="post" class="form-horizontal">
+					<form id="menu_form" action="" enctype="multipart/form-data" method="post" class="form-horizontal" style="margin-top: 30px;">
 						<div class="box-body">
 							<div class="form-group">
 								<label for="exampleInputFile" class="col-sm-2 control-label">上传图片：</label>
