@@ -146,7 +146,7 @@
 							<div class="form-group">
 								<label for="exampleInputFile" class="col-sm-2 control-label">生成结果：</label>
 								<div class="col-sm-9">
-									<img width="<?php echo $finalWidth;?>" height="<?php echo $finalHeight;?>" src="<?php echo $filename?>" />
+									<img width="<?php echo isset($finalWidth) ? $finalWidth : 0;?>" height="<?php echo isset($finalHeight) ? $finalHeight : 0;?>" src="<?php echo $filename?>" />
 								</div>
 							</div>
 						</div>
