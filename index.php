@@ -57,9 +57,11 @@
 		header("Location: /?finalWidth=$finalWidth&finalHeight=$finalHeight&filename=$imgVisitUrl");
 		exit;
 		
+	} else {
+		$finalWidth  = isset($_GET['finalWidth']) ? $_GET['finalWidth'] : '';
+		$finalHeight = isset($_GET['finalHeight']) ? $_GET['finalHeight'] : '';
+		$filename    = isset($_GET['filename']) ? $_GET['filename'] : '';
 	}
-	
-	$filename    = isset($_GET['filename']) ? $_GET['filename'] : '';
 	
 	/**
 	 * 读取上传图片前2个字节，判断文件类型
