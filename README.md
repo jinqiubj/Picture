@@ -119,3 +119,9 @@ sit amet, consectetuer adipiscing elit.
 *   A list item with a code block:
 
         <code goes here>
+
+
+
+This is a normal paragraph:
+
+    This is a code block.
