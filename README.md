@@ -6,3 +6,4 @@
 3. 此类库可实现图片旋转。
 4. 类库是Picture_class.php。
 5. Demo在文件index.php中，把此项目放在web目录下即可测试。
+6. 类Unix系统测试时，请赋予upload目录可写权限。
