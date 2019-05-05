@@ -1,3 +1,6 @@
+### 类库地址
+https://github.com/jinqiubj/Picture
+
 ### 此类库满足以下需求
 1. 将任意尺寸的图片等比缩放到任意尺寸的透明图片上，如下图是一张200*200的正方形图片：
 ![图片裁剪/裁切](https://github.com/jinqiubj/Picture/blob/master/img/02.png)
