@@ -10,5 +10,5 @@ https://github.com/jinqiubj/Picture
 
 ### 其他说明
 1. 类库文件是Picture_class.php.
-2. Demo在文件index.php中，把此项目放在web目录下即可测试.
+2. 本类库有完整Demo，把github仓库拉取下来，放在web目录下即可测试.
 3. 在类Unix系统测试时，请赋予upload目录可写权限.
